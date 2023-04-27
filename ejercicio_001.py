@@ -1,0 +1,6 @@
+nombre = input ('¿Cuál es tu nombre?')
+primerApellido = input ('¿Cuál es tu primer Apellido?')
+segundoApellido = input ('¿Cuál es tu Segundo Apellido?')
+anio = int(input('¿En qué año naciste?'))
+print('Este es tu nombre completo en mayúsculas:'+' '+(nombre.upper()+' '+primerApellido.upper()+' '+segundoApellido.upper()))
+print('Este es tu nombre completo en minúsculas:'+' '+(nombre.lower()+' '+primerApellido.lower()+' '+segundoApellido.lower()))
